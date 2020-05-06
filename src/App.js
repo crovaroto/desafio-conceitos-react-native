@@ -60,7 +60,7 @@ export default function App() {
               <View style={styles.likesContainer}>
                 <Text
                   style={styles.likeText}
-                  testID={`repository-likes-${repository.id}`}
+                  testID={`repository-likes-${repository.id}`} 
                  >
                   {repository.likes} curtida{repository.likes > 1 ? 's' : ''}
                 </Text>
